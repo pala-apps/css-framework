@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+  <link rel="manifest" href="/manifest.json">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Dummy PWA React">
+  <link rel="apple-touch-icon" href="images/icon-152-ios.png">
+
+  <meta name="msapplication-TileImage" content="images/icon-144.png">
+  <meta name="msapplication-TileColor" content="#ee6e73">
+  <meta name="theme-color" content="#ee6e73">
+  <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+  <title>PWA with React</title>
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Images & Figures</h1>
+    <hr>
+
+    <h2>Responsive Images</h2>
+    <img class="img-responsive" src="http://cdn.wallpapersafari.com/0/48/9ec25u.jpg" alt="Responsive Image" />
+
+    <h2>Rounded Images</h2>
+    <img class="img-rounded" width="400" src="http://cdn.wallpapersafari.com/0/48/9ec25u.jpg" alt="Rounded Image" />
+
+    <h2>Aligning Images</h2>
+    <img class="img-rounded go-left" width="400" src="http://cdn.wallpapersafari.com/0/48/9ec25u.jpg" alt="Rounded Image Left" />
+    <img class="img-rounded go-right" width="400" src="http://cdn.wallpapersafari.com/0/48/9ec25u.jpg" alt="Rounded Image Right" />
+    <img class="img-rounded margin-auto block" width="400" src="http://cdn.wallpapersafari.com/0/48/9ec25u.jpg" alt="Rounded Image Center" />
+
+    <h2>Figures</h2>
+    <figure class="figure">
+      <img width="400" src="http://cdn.wallpapersafari.com/0/48/9ec25u.jpg" alt="Figure Image" />
+      <figcaption class="figure-caption">This is a caption for the amazing image.</figcaption>
+    </figure>
+
+    <figure class="figure">
+      <img width="400" src="http://cdn.wallpapersafari.com/0/48/9ec25u.jpg" alt="Figure Image" />
+      <figcaption class="figure-caption text-right">This is a caption for the amazing image.</figcaption>
+    </figure>
+
+  </div>
+
+  <script src="/scripts/bundle.js"></script>
+  <script>require('scripts/initialize');</script>
+</body>
+</html>

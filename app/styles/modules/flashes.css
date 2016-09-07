@@ -1,0 +1,42 @@
+.flash {
+  position:relative;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.flash a {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.flash-success {
+  background-color: #37bc98;
+  color: #ffffff;
+}
+
+.flash-success:after {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-color: #ffffff #48cfad;
+  border-width: 1.5rem 1.5rem 0 0;
+  top: 0;
+  left: 0;
+}
+
+.flash-warning {
+  background-color: #f6bb42;
+  color: #ffffff;
+}
+
+.flash-warning:after {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-color: #ffffff #ffce54;
+  border-width: 1.5rem 1.5rem 0 0;
+  top: 0;
+  left: 0;
+}

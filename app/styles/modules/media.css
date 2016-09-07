@@ -1,0 +1,30 @@
+.media {
+  display: table;
+  max-width: 400px;
+  margin-bottom: 1rem;
+}
+
+.media-heading {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.media-body {
+  display: table;
+}
+
+.media-img {
+  display: table-cell;
+  vertical-align: top;
+  border-radius: 0.2rem;
+  padding-right: 0.5rem;
+}
+.media-content  {
+  display: table-cell;
+  vertical-align: top;
+  width: 50%;
+}
+
+.media-body-meta {
+  font-size: 12px;
+}

@@ -1,0 +1,50 @@
+.btn {
+  display: inline-block;
+  color: #434A54;
+  background-color: #adadaa;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.25;
+  padding: 0.4rem 1.5rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #656565;
+  color: #ffffff;
+}
+
+.btn-default {
+  background-color: #f6bb42;
+  color: #ffffff;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-default:hover {
+  background-color: #ffce54;
+}
+
+.btn-success {
+  background-color: #37bc98;
+  color: #ffffff;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-success:hover {
+  background-color: #48cfad;
+}
+
+.btn-warning {
+  background-color: #da4453;
+  color: #ffffff;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-warning:hover {
+  background-color: #ed5565;
+}

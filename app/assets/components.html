@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+  <link rel="manifest" href="/manifest.json">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Dummy PWA React">
+  <link rel="apple-touch-icon" href="images/icon-152-ios.png">
+
+  <meta name="msapplication-TileImage" content="images/icon-144.png">
+  <meta name="msapplication-TileColor" content="#ee6e73">
+  <meta name="theme-color" content="#ee6e73">
+  <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+  <title>PWA with React</title>
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="/">
+            <img class="navbar-brand" src="http://palaapps.com/images/logo.png" alt="PALA Applications logo" />
+          </a>
+          <button id="toggleNav" type="button" class="navbar-toggle collapsed">
+            Toggle
+          </button>
+        </div>
+
+        <div class="navbar-collapse" id="nav">
+          <ul class="nav navbar-nav">
+            <li><a href="/">Posts</a></li>
+            <li><a href="/about-us">About us</a></li>
+            <li><a href="/learn">Learn</a></li>
+          </ul>
+          <div class="navbar-right go-right">
+            <form class="form-inline">
+              <input class="form-control" type="text" id="search-input" placeholder="search...">
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  <div class="container">
+    <h1>Components</h1>
+    <hr>
+
+    <h2>Flashes</h2>
+    <div class="flash flash-success">
+      <strong>Success!</strong>
+      Something went right. Read more at <a href="#">this link</a>
+    </div>
+
+    <div class="flash flash-warning">
+      <strong>Danger!</strong>
+      Something went wrong. Read more at <a href="#">this link</a>
+    </div>
+
+    <h2>Hero</h2>
+    <a href="#" class="hero">
+      <div class="hero-content">
+        <h2 class="splash-3 m-t-0 m-b-0">Learn Progressive Web Apps</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <button class="btn btn-default" type="button" name="button">Start</button>
+      </div>
+      <div class="text-right">
+        <img src="http://cdn.wallpapersafari.com/0/48/9ec25u.jpg" alt="Hero Image" class="hero-img img-rounded" />
+      </div>
+    </a>
+
+    <h2>Buttons</h2>
+    <h4>Default Buttons</h4>
+    <a href="#" class="btn">Anchor Button</a>
+    <button class="btn">Button Button</button>
+    <input class="btn" value="Input Button">
+    <h4>Styled Buttons</h4>
+    <a href="#" class="btn btn-default">Anchor Button</a>
+    <button class="btn btn-success">Button Button</button>
+    <input class="btn btn-warning" value="Input Button">
+
+    <h2>Media</h2>
+    <div class="media">
+      <h4 class="media-heading">
+        Media Heading
+      </h4>
+      <div class="media-body">
+        <img class="media-img img-responsive" src="http://cdn.wallpapersafari.com/0/48/9ec25u.jpg" alt="Media Img" />
+        <div class="media-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <a class="btn" href="#">Link to content</a>
+        </div>
+      </div>
+    </div>
+
+    <h2>Navbar</h2>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="/">
+            <img class="navbar-brand" src="http://palaapps.com/images/logo.png" alt="PALA Applications logo" />
+          </a>
+          <button id="toggleNav" type="button" class="navbar-toggle collapsed">
+            Toggle
+          </button>
+        </div>
+
+        <div class="navbar-collapse" id="nav">
+          <ul class="nav navbar-nav">
+            <li><a href="/">Posts</a></li>
+            <li><a href="/about-us">About us</a></li>
+            <li><a href="/learn">Learn</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <input class="text-input-search" type="text" id="search-input" placeholder="search...">
+              <ul class="dropdown" id="results-container"></ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+
+  <script src="/scripts/bundle.js"></script>
+  <script>require('scripts/initialize');</script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.text-muted {
+  color: #888888;
+}
+
+.text-intro {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.splash-1 {
+  font-size: 5rem;
+}
+
+.splash-2 {
+  font-size: 4rem;
+}
+
+.splash-3 {
+  font-size: 3rem;
+}
+
+.blockquote {
+  padding: .5rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.blockquote p {
+  display: inline;
+  margin-bottom: 0;
+}
+
+.blockquote::before {
+  content: '"';
+  display: inline;
+  font-size: 2.3em;
+  font-weight: 700;
+}
+
+.blockquote-footer {
+  display: block;
+  font-size: 66%;
+  color: #888888;
+}
